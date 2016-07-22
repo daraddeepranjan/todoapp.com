@@ -1,0 +1,14 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "task manage",
+  "main": "angular.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "deep ranjan",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-webserver": "^0.9.1"
+  }
+}

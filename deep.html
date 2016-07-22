@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<html ng-app="myApp">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.min.js"></script>
+
+<script src="./js/app1.js"></script>
+<link rel="stylesheet" type="text/css" href="./css/todostyle.css">
+
+
+ <a href="/bootstrap/default.asp" class="active" title="Bootstrap Tutorial"></a>
+ <title>todoapp.com</title
+   <link rel="shortcut icon" href=".images/gt_favicon.png">
+ </head>
+
+   <body ng-controller="HomeController">
+
+<div id="header">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <div id="col-sm-12">
+    <script type="text/javascript">
+   function fetch()
+   {
+   var a=document.getElementById("a").value;
+
+   window.location="https://www.google.co.in/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q="+a;
+   }
+   </script>
+
+
+&nbsp;&nbsp;<input type="text" placeholder="search here" id="a" name="a">
+    <input type="button" name="search" value="Google search" onClick="fetch()">
+
+<ul>
+  <li ><a href="#/signin">sign in</a></li>
+<li><a href="#/aboutus">aboutus</a></li>
+<li><a href="#/overview">overview</a></li>
+<li><a href="#/contact">contact</a></li>
+<li><a href="#/Home">Home</a></li>
+</ul>
+</div>
+</div>
+<div ng-view></div>
+<div id="body">
+<img src="./images/4.jpg"   class="image-responsive">
+<img src="./images/3.jpeg"  class="image-responsive">
+</div>
+<div id="header1">
+<ul>
+  <li><a href="#/Reminder">Reminder</a></li>
+    <li><a href="#/Alarm">Alarm</a></li>
+<li><a href="#/Calendar">Calendar</a></li>
+<li><a href="#/Blog">Blog</a></li>
+<li><a href="#/ManageTask">ManageTask</a></li>
+</ul>
+</div>
+<div id="header2">
+  <div id="container">
+  <h1>Manage your task here</h1>
+    <h4>Start getting more done in less time<br>
+      Manage tasks and projects anywhere with Todolist. At home. At school. At work. Online. Offline.</h4>
+  </div>
+  <div class="row">
+    <div class="col-sm-4" style="background-color:#d3d3d3;">
+      <h3><b>Column 1</b></h3>
+      <p style="color:grey;">Finding the right tool to track your to-dos is highly personal, and one person's best is another's junk but there are some that are better than others. The best offer great syncing and scheduling options, great apps, notifications and reminders, or just the right mix of features and flexibility that make it easy to stay organized. Here are five of the best, based on your nominations.</p>
+    </div>
+    <div class="col-sm-4" style="background-color:#dbdbdb;">
+      <h3><b>Column 2</b></h3>
+      <p style="color:blue;">TECHNOLOGY HAS GIVEN us one-tap access to taxis, laundromats, all of history collected information, and sex. Yet it cannot give us a decent to-do list..</p>
+    </div>
+    <div class="col-sm-4" style="background-color:#e0e0e0;">
+      <h3><b>Column 3</b></h3>
+      <p style="color:orange;"><b>Creating and sharing lists is easy, as is setting up deadlines for getting them done  and reminders to ensure you are not caught out. Using Wunderlist to collaborate on lists with colleagues and family members is easy, and its smartwatch app is a useful way to quickly check on your lists  while shopping, for example..</b></p>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="footer">
+  <div id="col-sm-12">
+<div class="social-icons">
+  			<h4 class="_14">Follow us on</h4>
+    	<ul class="social-icons">
+  				<li><a href="https://twitter.com/" class="social-icon"><i class="fa fa-twitter"></i> </a></li>
+  				<li><a href="https://facebook.com/" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+  				<li> <a href="https://in.linkedin.com/" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+	</ul>
+  </div>
+<br>
+<h1 class="footer-heading txt-left">REACH US</h1>
+<a href="#">contact@todoapp.com</a>
+<br>
+
+<li id="text-3" class="widget widget_text">
+  			<div class="textwidget">
+          <h1 class="footer-heading txt-left footer-text-color">MORE INFORMATION</h1>
+<ul class="bottom-menu">
+<li><a href="/">Features</a></li>
+<li><a href="/why-todoapp">Why todoapp</a></li>
+<li><a href="/features/#360-collaboration">360 Degree Collaboration</a></li>
+<li><a href="/faq">FAQ</a></li>
+<li style="border-bottom:none"><a href="/news">News</a></li>
+</ul></div>
+		</li>
+<li id="text-4" class="widget widget_text last">
+  			<div id="textwidget"><h1 id="footer-heading txt-left footer-text-color">&nbsp;</h1>
+<ul id="bottom-menu">
+<li><a href="/hallwaze-blog">Blog</a></li>
+<li><a href="/hallwaze-privacy-policy/">Privacy Policy</a></li>
+<li><a href="/resources">Resources</a></li>
+<li><a href="/about-us">About Us</a></li>
+<li style="border-bottom:none"><a href="/contact-us">Contact Us</a></li>
+</ul></div>
+</ul>
+      <br class="clear"/>
+  <div id="copyright" >
+© 2016 Todoapp, Inc. All rights reserved
+</div>
+</div>
+</body>
+</html>
